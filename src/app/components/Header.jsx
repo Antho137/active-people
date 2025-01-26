@@ -18,7 +18,7 @@ function Header() {
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center gap-2">
           <Image
-            src="/nextjs-github-pages/logo.png"
+            src="/active-people/logo.png"
             alt="Active people logo"
             className="rounded"
             width={42}

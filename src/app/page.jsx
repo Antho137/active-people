@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="mx-auto md:w-2/5">
           <Image
-            src="/nextjs-github-pages/active-people.png"
+            src="/active-people/active-people.png"
             alt="Active people"
             className="rounded"
             width={310}
