@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",    
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --nojekyll --cname"
+    "deploy": "gh-pages -d out --nojekyll --cname https://antho137.github.io/active-people"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
