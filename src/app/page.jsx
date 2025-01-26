@@ -31,11 +31,12 @@ export default function Home() {
         </div>
         <div className="mx-auto md:w-2/5">
           <Image
-            src="/active-people.png"
+            src="/nextjs-github-pages/active-people.png"
             alt="Active people"
             className="rounded"
             width={310}
             height={300}
+            priority
           />
         </div>
       </div>

@@ -12,7 +12,7 @@ function Footer() {
     <div className="relative flex flex-col justify-center items-center bg-slate-700 py-6 mt-3">
       <div className="bg-white w-2/3 sm:w-1/3 lg:w-1/4 flex items-center justify-center gap-1 py-2 mb-3 rounded-[50%]">
         <Image
-          src="/logo.png"
+          src="/nextjs-github-pages/logo.png"
           alt="Active people logo"
           className=""
           width={38}

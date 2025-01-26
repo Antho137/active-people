@@ -18,11 +18,12 @@ function About() {
         </div>
         <div>
           <Image
-            src="/community.png"
+            src="/nextjs-github-pages/community.png"
             alt="Community"
             className=" rounded"
             width={450}
             height={300}
+            priority
           />
         </div>
       </div>

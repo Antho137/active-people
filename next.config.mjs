@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    unoptimized: true, // Disable default image optimization
-  },
-  assetPrefix: isProd ? "/active-people/" : "",
-  basePath: isProd ? "/active-people" : "",
   output: "export",
+  basePath: "/nextjs-github-pages",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
